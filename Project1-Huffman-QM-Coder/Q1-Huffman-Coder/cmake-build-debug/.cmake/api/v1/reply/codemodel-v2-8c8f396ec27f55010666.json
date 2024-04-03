@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Q1_Huffman_Coder",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Q1_Huffman_Coder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Q1_Huffman_Coder-Debug-011194b01a410671c76f.json",
+					"name" : "Q1_Huffman_Coder",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/toby0/Documents/GitHub/NCU-Data-Compression/Project1-Huffman-QM-Coder/Q1-Huffman-Coder/cmake-build-debug",
+		"source" : "C:/Users/toby0/Documents/GitHub/NCU-Data-Compression/Project1-Huffman-QM-Coder/Q1-Huffman-Coder"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
