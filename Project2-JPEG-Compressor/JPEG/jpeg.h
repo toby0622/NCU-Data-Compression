@@ -23,7 +23,7 @@ void encodeBlock(ofstream &outfile, double input[8][8], int QF, bool isY);
 
 void encode(bool isRGB, int width, int height, string filename, int QF);
 
-// for encoder
+// for decoder
 void initDecodeTable();
 
 int bit2int(string decode);

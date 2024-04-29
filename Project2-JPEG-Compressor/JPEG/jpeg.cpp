@@ -581,10 +581,7 @@ void decode(bool isRGB) {
     }
 
     infile.get();
-    /*
-    // it works well on mac os / linux but it will crash on windows
-    // double imageData[height][width][rgb]; // use to store the decoded image data
-    */
+
     vector<vector<vector<double>>> decodeimageData(height, vector<vector<double>>(width, vector<double>(rgb,
                                                                                                         0))); // use to store the decoded image data
     double blockData[8][8];                                                                                        // use to stroe the data recover from zigzag
@@ -867,8 +864,10 @@ void menu() {
 void test() // just for quick testing
 {
     int qf[6] = {90, 80, 50, 20, 10, 5};
-    string filename[4] = {"GrayImages/Baboon.raw", "GrayImages/Lena.raw", "ColorImages/BaboonRGB.raw",
-                          "ColorImages/LenaRGB.raw"};
+    string filename[4] = {"Data/GrayImages/Baboon.raw",
+                          "Data/GrayImages/Lena.raw",
+                          "Data/ColorImages/BaboonRGB.raw",
+                          "Data/ColorImages/LenaRGB.raw"};
     for (int i = 0; i < 4; i++) {
         cout << "encoding \"" << filename[i] << "\"" << endl;
         for (int j = 0; j < 6; j++) {

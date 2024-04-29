@@ -1,11 +1,13 @@
 #include "jpeg.h"
 
+#define TRUE 1
+
 int main() {
     int choice;
     string filename;
     int QF;
 
-    while (1) {
+    while (TRUE) {
         menu();
         cin >> choice;
         switch (choice) {
@@ -29,12 +31,10 @@ int main() {
                 break;
             case 3:
                 exit(0);
-                break;
             default:
                 cout << "Invalid choice!" << endl;
                 break;
         }
         cout << endl;
     }
-    return 0;
 }
